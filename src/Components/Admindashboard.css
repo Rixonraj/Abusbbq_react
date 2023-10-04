@@ -1,0 +1,19 @@
+
+.fitHeightAction{
+    height: fit-content;
+}
+
+
+.dashcontent{
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+@media screen and (max-width: 700px) {
+    .dashcontent{
+        margin-left: 0px;
+        padding: 1px;
+        height: 1000px;
+    }
+  }
+

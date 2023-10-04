@@ -1,0 +1,52 @@
+/* Admin Dashboard Sidebar */
+.unsetStyles{
+    color:unset;
+    text-decoration:unset;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:#555;
+     /* #f1f1f1; */
+     border: solid;
+    
+     border-radius: 3px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar span {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar span.active {
+    background-color: #b20000;
+    color: white;
+  }
+  
+  .sidebar span:hover:not(.active) {
+    background-color: white;
+    color: black;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
